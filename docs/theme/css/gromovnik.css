@@ -1,0 +1,49 @@
+body {
+  font-family: "Liberation Serif", "Times New Roman", Times, serif;
+  color: #fff;
+  background-color: #001848;
+}
+ 
+a {
+  color: #ededed;
+}
+ 
+a:focus,
+a:hover {
+  color: #fdfdfd;
+}
+ 
+blockquote {
+  color: #f4f5f6;
+  font-style: italic;
+}
+ 
+img {
+  max-width: 100%;
+}
+
+/* ------------------------------------------------------------------------- */
+ 
+.main {
+  background-color: #001f5c;
+}
+
+.main::after {
+  background: url(/static/images/gromovnik-banner.png);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  /*-webkit-text-stroke: 1px #f4f5f6;
+  text-stroke: 1px #f4f5f6;*/
+}
+ 
+.text-muted {
+  color: #d8d8d8 !important;
+}
